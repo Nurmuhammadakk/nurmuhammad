@@ -49,7 +49,9 @@ footer {
   .myself_md {
    display: none;
   }
-  
+  .img{
+    width: auto;
+  }
  }
 
  
