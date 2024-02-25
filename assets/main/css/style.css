@@ -1,3 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myself{
+  height: 75vh;
+}
+
+
 .img{
   border-radius: 50%;
 }
@@ -18,16 +29,16 @@ footer {
 
 
 @media screen and (max-width: 768px) {
- .home_mb {
+ .myself_md {
   display: block;
  }
- .home_mb .home_text h1,  .home_mb .home_text p{
+ .myself_md .myself_text h1,  .myself_md .myself_text p{
   width: 100% !important;
  }
 }
 
 @media screen and (max-width: 768px) {
-  .home {
+  .myself {
    display: none;
   }
   
@@ -35,7 +46,7 @@ footer {
 
  
 @media screen and (min-width: 768px) {
-  .home_mb {
+  .myself_md {
    display: none;
   }
   
@@ -43,23 +54,8 @@ footer {
 
  
 @media screen and (min-width: 768px) {
-  .home {
+  .myself {
    display: block;
   }
   
- }
-
- @media screen and (max-width: 768px) {
-
-    .main_title{
-      font-size: 32px;
-    }  
-
-    .second_title{
-      font-size: 22px;
-    }
-  
-    .cat_text{
-      font-size: 16px;
-    }
  }
