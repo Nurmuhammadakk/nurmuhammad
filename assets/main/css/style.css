@@ -17,6 +17,11 @@
   font-weight: 600;
 }
 
+.about-me{
+  height: 75vh;
+}
+
+
 footer {
   position: fixed;
   left: 0;
@@ -61,3 +66,40 @@ footer {
   }
   
  }
+
+
+
+ @media screen and (max-width: 768px) {
+  .about-me_md {
+   display: block;
+  }
+  .about-me_md .about_me_text h1,  .about-me_md .about-me_text p{
+   width: 100% !important;
+  }
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .about-me {
+    display: none;
+   }
+   
+  }
+ 
+  
+ @media screen and (min-width: 768px) {
+   .about-  me_md {
+    display: none;
+   }
+   .img{
+     width: auto;
+   }
+  }
+ 
+  
+ @media screen and (min-width: 768px) {
+   .about_me {
+    display: block;
+   }
+   
+  }
+ 
